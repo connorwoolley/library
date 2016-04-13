@@ -29,18 +29,21 @@ class BootStrap {
 			def library1= new Library
 				(location: 'Sheffield',
 				openingHours: '9-5',
+				librarian: 'Connor Bob',
 				book: 'romance',
 				student: 'Steven Gerrard').save()
 
 			def library2= new Library
 				(location: 'Leeds',
 				openingHours: '9-5',
+				librarian: 'Mark Watson',
 				book: 'Sci Fi',
 				student: 'Fiona Bibs').save()
 
 			def library3= new Library
 				(location: 'Wakefield',
 				openingHours: '9-5',
+				librarian: 'Sue Alan',
 				book: 'Horror',
 				student: 'Andrew Miller').save()
 
