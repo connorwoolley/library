@@ -87,7 +87,7 @@ dataSource:
 environments:
     development:
         dataSource:
-            dbCreate: create-drop
+            dbCreate: create-update
             url: jdbc:mysql://localhost:3306/library
     test:
         dataSource:
