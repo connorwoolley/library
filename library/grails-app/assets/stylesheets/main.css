@@ -11,7 +11,7 @@ h1, h2, h3, h4, h5, h6 {
 /* BASE LAYOUT */
 
 html {
-    background-color: #ddd;
+    background-color: #ffbbbb;
     background-image: -moz-linear-gradient(center top, #aaa, #ddd);
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #aaa), color-stop(1, #ddd));
     background-image: linear-gradient(top, #aaa, #ddd);
@@ -25,7 +25,7 @@ html {
 }
 
 html.no-cssgradients {
-    background-color: #aaa;
+    background-color: #ffffff;
 }
 
 html * {
@@ -34,13 +34,13 @@ html * {
 
 body {
     background: #ffffff;
-    color: #333333;
+    color: #black;
     margin: 0 auto;
     max-width: 960px;
     overflow-x: hidden; /* prevents box-shadow causing a horizontal scrollbar in firefox when viewport < 960px wide */
-       -moz-box-shadow: 0 0 0.3em #255b17;
-    -webkit-box-shadow: 0 0 0.3em #255b17;
-            box-shadow: 0 0 0.3em #255b17;
+       -moz-box-shadow: 0 0 0.3em #black;
+    -webkit-box-shadow: 0 0 0.3em #black;
+            box-shadow: 0 0 0.3em #black;
 }
 
 #grailsLogo {
@@ -48,7 +48,7 @@ body {
 }
 
 a:link, a:visited, a:hover {
-    color: #48802c;
+    color: #696969;
 }
 
 a:hover, a:active {
@@ -454,7 +454,7 @@ th.desc a {
 }
 
 th:hover, tr:hover {
-    background: #E1F2B6;
+    background: #808080;
 }
 
 /* PAGINATION */
